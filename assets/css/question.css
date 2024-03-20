@@ -1,0 +1,26 @@
+.main-page__question-content {
+    width: 100%;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 50px;
+    text-align: center;
+    background-image: url("/public/images/questions/question.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.question-content__title {
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 25px;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: #116438;
+}
+.question-content__subtitle {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}

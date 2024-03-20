@@ -1,0 +1,158 @@
+.main-page__header-content {
+    position: fixed;
+    z-index: 25;
+    width: 90%;
+    top: 0;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+    background-color: #F8F6F4;
+}
+.main-page__header-content::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    width: 100%;
+    height: 5px;
+    background-color: #7FBE1E;
+    border-radius: 0 0 50px 50px;
+}
+.header-left-cont {
+    position: absolute;
+    top: 0;
+    left: -50px;
+}
+.header-right-cont {
+    position: absolute;
+    top: 0;
+    right: -52px;
+}
+
+.header-content__items-box {
+    width: 100%;
+    padding: 0 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-box__logo-aside {
+    padding-right: 20px;
+}
+.items-box__nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    column-gap: 15px;
+}
+.nav-box__message-aside {
+    display: flex;
+    grid-column-gap: 12px;
+}
+.message-aside__email-box {
+    display: flex;
+    flex-direction: column;
+
+}
+.email-box__text a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.email-box__send-message a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #116438;
+    border-bottom: 1px solid #116438;
+    border-bottom-style: dashed;
+    padding: 3px 0;
+}
+.email-box__send-message a:hover {
+    border-bottom: none;
+}
+.items-box__burger-menu {
+    display: none;
+}
+.items-box__number-aside {
+    display: flex;
+    align-items: center;
+    grid-column-gap: 10px;
+}
+.items-box__number-aside a {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.items-box__send-whatsapp-aside {
+    display: flex;
+    align-items: center;
+}
+.send-whatsapp-aside__button {
+    border: 1px solid #F2AC00;
+    color: #F2AC00;
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 8px 40px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.send-whatsapp-aside__button:hover {
+    background-color: #F2AC00;
+    color: black;
+    transition: all 500ms;
+}
+.items-box__burger-menu {
+    position: relative;
+}
+.burger-menu__items-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    row-gap: 8px;
+    position: absolute;
+    z-index: 80;
+    right: 0;
+    top: 0;
+    background-color: rgba(0,0,0, 1);
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 15px;
+}
+.burger-menu__items-box a {
+    text-decoration: none;
+    color: white;
+}
+.burger-menu__close-button {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+
+.main-page__delivery-content {
+    width: 100%;
+    height: 500px;
+    background-image: url("/public/images/main/floor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 1024px) {
+    .items-box__nav-box {
+        display: none;
+    }
+    .items-box__burger-menu {
+        display: block;
+    }
+}
