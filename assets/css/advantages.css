@@ -97,3 +97,11 @@
         display: block;
     }
 }
+@media (max-width: 425px) {
+    .advantages-services__columns {
+        grid-template-columns: 1fr;
+    }
+    .advantages-image-box__image {
+        width: 100px;
+    }
+}

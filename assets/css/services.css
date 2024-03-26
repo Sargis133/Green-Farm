@@ -151,3 +151,14 @@
         padding: 8px;
     }
 }
+@media (max-width: 425px) {
+    .logistic-services__columns {
+        grid-template-columns: 1fr;
+    }
+    .service-description__product-list {
+        padding: 0;
+    }
+    .main-page__our-services-content {
+        padding: 0;
+    }
+}

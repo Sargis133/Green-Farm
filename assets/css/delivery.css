@@ -101,3 +101,12 @@
         width: 75px;
     }
 }
+@media (max-width: 425px) {
+    .main-page__delivery-content {
+        height: max-content;
+        padding: 10em 0;
+    }
+    .delivery-info-block__columns {
+        grid-template-columns: 1fr;
+    }
+}

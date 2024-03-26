@@ -156,3 +156,11 @@
         display: block;
     }
 }
+@media (max-width: 425px) {
+    .items-box__logo-aside svg {
+        width: 200px;
+    }
+    .header-content__items-box {
+        padding: 0;
+    }
+}

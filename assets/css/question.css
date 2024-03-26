@@ -24,3 +24,8 @@
     font-size: 16px;
     font-weight: bold;
 }
+@media (max-width: 425px) {
+    .question-content__subtitle {
+        font-size: 13px;
+    }
+}

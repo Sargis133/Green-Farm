@@ -320,6 +320,7 @@ const showServiceProductFunc = (serviceId: number) =>
 </script>
 
 <style scoped>
+@import "assets/css/global.css";
 @import "assets/css/header.css";
 @import "assets/css/delivery.css";
 @import "assets/css/services.css";
@@ -334,5 +335,16 @@ const showServiceProductFunc = (serviceId: number) =>
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .question-content__title, .advantages-content__title, .about-content__title, .our-services-content__title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 425px) {
+  .question-content__title, .advantages-content__title, .about-content__title, .our-services-content__title {
+    font-size: 20px;
+  }
 }
 </style>

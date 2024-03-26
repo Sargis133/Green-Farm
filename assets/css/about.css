@@ -54,3 +54,9 @@
         grid-template-rows: 260px auto auto;
     }
 }
+@media (max-width: 425px) {
+    .about-description__image img {
+        width: 240px;
+        height: auto;
+    }
+}
