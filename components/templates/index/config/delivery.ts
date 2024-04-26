@@ -1,7 +1,7 @@
 export const deliveryData = [
     {
         id: 0,
-        image: "/images/services/service-delivery.jpg",
+        image: "images/services/service-delivery.jpg",
         title: "Доставка декоративных растений из зарубежных питомников",
         list: [
             "Деревья, кустарники, многолетние растения;",
@@ -13,7 +13,7 @@ export const deliveryData = [
     },
     {
         id: 1,
-        image: "/images/services/service-paperwork.jpg",
+        image: "images/services/service-paperwork.jpg",
         title: "Оформление сопроводительных документов",
         list: [
             "Предоставляем полный пакет сопроводительных документов на каждую поставку товара.",
@@ -22,7 +22,7 @@ export const deliveryData = [
     },
     {
         id: 2,
-        image: "/images/services/service-delivery-2.jpg",
+        image: "images/services/service-delivery-2.jpg",
         title: "Доставка сборных грузов",
         list: [
             "Организуем доставку сборных грузов от 1 паллета.",
@@ -33,7 +33,7 @@ export const deliveryData = [
     },
     {
         id: 3,
-        image: "/images/services/service-delivery-3.jpg",
+        image: "images/services/service-delivery-3.jpg",
         title: "Доставка сопутствующих товаров",
         list: [
             "Оборудование и материалы для производства;",
@@ -44,7 +44,7 @@ export const deliveryData = [
     },
     {
         id: 4,
-        image: "/images/services/service-delivery-4.jpg",
+        image: "images/services/service-delivery-4.jpg",
         title: "Услуги внешнеторгового агента",
         list: [
             "По поручению клиента осуществляем поиск товара и ведем переговоры с поставщиком.",

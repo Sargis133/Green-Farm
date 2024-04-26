@@ -7,7 +7,7 @@ export const advantagesData = [
     {
         title: ["Современный", "автопарк"],
         text: "Транспорт оборудован терморегистратором для контроля температуры",
-        image: 'images/advantages-delivery.png'
+        image: 'images/advantages/advantages-delivery.png'
     },
     {
         title: ["Консолидационный", "склад"],
