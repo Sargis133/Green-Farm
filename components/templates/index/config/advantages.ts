@@ -2,22 +2,22 @@ export const advantagesData = [
     {
         title: ["География", "перевозок"],
         text: "Все страны входящие в состав Европейского союза и СНГ",
-        image: '@/images/advantages/advantages-location.png'
+        image: 'images/advantages/advantages-location.png'
     },
     {
         title: ["Современный", "автопарк"],
         text: "Транспорт оборудован терморегистратором для контроля температуры",
-        image: '../public/advantages/advantages-delivery.png'
+        image: 'images/advantages-delivery.png'
     },
     {
         title: ["Консолидационный", "склад"],
         text: "На территории отделения компании, в Московской области и в регионах",
-        image: '/public/advantages/advantages-home.png'
+        image: 'images/advantages/advantages-home.png'
     },
     {
         title: ["Полная", "ответственность"],
         text: "Страхование и контроль за состоянием груза на каждом этапе перевозки",
-        image: 'public/advantages/advantages-security.png'
+        image: 'images/advantages/advantages-security.png'
     },
     {
         title: ["Уровень", "сервиса"],
