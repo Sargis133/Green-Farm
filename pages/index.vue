@@ -17,10 +17,14 @@
             </div>
             <div class="message-aside__email-box">
               <div class="email-box__text">
-                <NuxtLink to="/">info@floratrans.ru</NuxtLink>
+                <NuxtLink >info@floratrans.ru</NuxtLink>
               </div>
               <div class="email-box__send-message">
-                <NuxtLink to="/">Написать письмо</NuxtLink>
+                <NuxtLink
+                  to="https://mail.google.com/mail/?view=cm&fs=1&to=email@domain.example"
+                  target="_blank"
+                  >Написать письмо</NuxtLink
+                >
               </div>
             </div>
           </div>
@@ -30,9 +34,13 @@
             <NuxtLink to="/"> +7 977 909 97 60 </NuxtLink>
           </div>
           <div class="items-box__send-whatsapp-aside">
-            <button class="send-whatsapp-aside__button">
+            <NuxtLink
+              class="send-whatsapp-aside__button"
+              to="https://api.whatsapp.com/send?phone=123456789"
+              target="_blank"
+            >
               Написать WhatsApp
-            </button>
+            </NuxtLink>
           </div>
         </div>
         <div class="items-box__burger-menu">
@@ -316,7 +324,6 @@ const onOpenMenuFunc = () => (isShowBurgerMenu.value = true);
 const onCloseBurgerMenu = () => (isShowBurgerMenu.value = false);
 const showServiceProductFunc = (serviceId: number) =>
   (checkedService.value = serviceDelivery.value[serviceId]);
-
 </script>
 
 <style scoped>
@@ -338,12 +345,18 @@ const showServiceProductFunc = (serviceId: number) =>
 }
 
 @media (max-width: 768px) {
-  .question-content__title, .advantages-content__title, .about-content__title, .our-services-content__title {
+  .question-content__title,
+  .advantages-content__title,
+  .about-content__title,
+  .our-services-content__title {
     font-size: 30px;
   }
 }
 @media (max-width: 425px) {
-  .question-content__title, .advantages-content__title, .about-content__title, .our-services-content__title {
+  .question-content__title,
+  .advantages-content__title,
+  .about-content__title,
+  .our-services-content__title {
     font-size: 20px;
   }
 }
