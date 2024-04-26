@@ -2,12 +2,12 @@ export const advantagesData = [
     {
         title: ["География", "перевозок"],
         text: "Все страны входящие в состав Европейского союза и СНГ",
-        image: '/images/advantages/advantages-location.png'
+        image: '@/images/advantages/advantages-location.png'
     },
     {
         title: ["Современный", "автопарк"],
         text: "Транспорт оборудован терморегистратором для контроля температуры",
-        image: '/images/advantages/advantages-delivery.png'
+        image: '@/images/advantages/advantages-delivery.png'
     },
     {
         title: ["Консолидационный", "склад"],
