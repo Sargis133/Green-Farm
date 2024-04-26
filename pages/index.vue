@@ -17,7 +17,7 @@
             </div>
             <div class="message-aside__email-box">
               <div class="email-box__text">
-                <NuxtLink >info@floratrans.ru</NuxtLink>
+                <NuxtLink>info@floratrans.ru</NuxtLink>
               </div>
               <div class="email-box__send-message">
                 <NuxtLink
@@ -54,9 +54,17 @@
             >
               <ui-icons name="close" />
             </button>
-            <NuxtLink>Написать письмо<br />info@floratrans.ru</NuxtLink>
+            <NuxtLink
+              to="https://mail.google.com/mail/?view=cm&fs=1&to=email@domain.example"
+              target="_blank"
+              >Написать письмо<br />info@floratrans.ru</NuxtLink
+            >
             <NuxtLink>+7 977 909 97 60</NuxtLink>
-            <NuxtLink to="/">Написать WhatsApp</NuxtLink>
+            <NuxtLink
+              to="https://api.whatsapp.com/send?phone=123456789"
+              target="_blank"
+              >Написать WhatsApp</NuxtLink
+            >
           </div>
         </div>
       </div>
